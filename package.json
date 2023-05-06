@@ -17,7 +17,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "curl -o vite.config.js https://raw.githubusercontent.com/vitejs/vite/main/packages/create-vite/template-vue/vite.config.js && vite build",
+    "build:package": "vite build",
     "preview": "vite preview",
     "commit": "git-cz"
   },
