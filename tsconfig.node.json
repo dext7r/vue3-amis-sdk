@@ -27,7 +27,7 @@
     "types": [
       "@types/node"
     ]
-  }
+  },
   "include": [
     "vite.config.ts"
   ]
